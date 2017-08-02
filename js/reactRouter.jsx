@@ -82,7 +82,7 @@ var App = React.createClass({
 ReactDOM.render(
     <Router history={ReactRouter.hashHistory}>
         <Route path="/" component={App}>
-            <IndexRoute compoment={Home}></IndexRoute>
+            <IndexRoute component={Home}></IndexRoute>
             <Route path="stuff" component={Stuff} />
             <Route path="contact" component={Contact} />
         </Route>
